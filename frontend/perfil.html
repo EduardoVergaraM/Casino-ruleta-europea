@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mi cuenta</title>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <a href="index.html" class="logo-container">
+                <img src="images/logo.png" alt="Casino-Logo" class="logo">
+                <h1 class="casino-title">Casino</h1>
+            </a>
+            <nav>
+                <a href="perfil.html" class="current">Perfil</a>
+                <a href="transacciones.html">Transacciones</a>
+                <a href="ruleta.html">Ruleta</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="datos">
+            <h2>Datos personales</h2>
+            <ul>
+                <li id="nombre-perfil">Cargando...</li>
+                <li id="correo-perfil">Cargando...</li>
+                <li id="usuario-perfil">Cargando...</li>
+
+            </ul>
+        </div>
+
+        <div class="saldo-perfil">
+            <h2>Saldo actual</h2>
+            <p id="saldo-usuario"> Cargando...</p>
+        </div>
+
+        <div class="giros">
+            <h2>Ultimas transacciones</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Tipo</th>
+                        <th>Monto</th>
+                    </tr>
+                </thead>
+                <tbody id ="registro">
+                    <tr>
+                        <td>31/08/2025</td>
+                        <td>19:00:00</td>
+                        <td>Depósito</td>
+                        <td>$200.000</td>
+                    </tr>
+                    <tr>
+                        <td>30/08/2025</td>
+                        <td>19:00:00</td>
+                        <td>Retiro</td>
+                        <td>$200.000</td>
+                    </tr>
+                    <tr>
+                        <td>29/08/2025</td>
+                        <td>19:00:00</td>
+                        <td>Depósito</td>
+                        <td>$200.000</td>
+                    </tr>
+                    <tr>
+                        <td>28/08/2025</td>
+                        <td>19:00:00</td>
+                        <td>Retiro</td>
+                        <td>$200.000</td>
+                    </tr>
+                    <tr>
+                        <td>27/08/2025</td>
+                        <td>19:00:00</td>
+                        <td>Depósito</td>
+                        <td>$200.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <button class="logout-btn">Cerrar Sesión</button>
+
+    </main>
+    <script src="js/commons.js"></script>
+    <script src="js/perfil.js"></script>
+</body>
+
+
+</html>

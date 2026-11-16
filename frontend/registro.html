@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registro </title>
+
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <a href="index.html" class="logo-container">
+                <img src="images/logo.png" alt="Casino-Logo" class="logo">
+                <h1 class="casino-title">Casino</h1>
+            </a>
+            <nav>
+                <a href="desarrolladores.html">Desarrolladores</a>
+                <a href="historia.html">Historia y Reglas</a>
+            </nav>
+        </div>
+        <div class="right">
+            <a href="registro.html" class="button current-btn">Registrarse</a>
+            <a href="login.html" class="button">Iniciar Sesión</a>
+        </div>
+    </header>
+
+    <main>
+        <form action="login.html">
+
+            <fieldset>
+                <legend>Ingrese sus datos personales</legend>
+                <label for="nombre">Nombre completo</label>
+                <input id="nombre" type="text" placeholder="Juan Perez Herrera" required
+                    title="Ingresa tu nombre completo">
+
+                <label for="correo">Correo electronico</label>
+                <input id="correo" type="email" placeholder="juan.perez@gmail.com" required
+                    title="Ingresa tu correo electronico">
+
+                <label for="nacimiento">Fecha de nacimiento</label>
+                <input id="nacimiento" type="date"
+                    title="Es necesario tener 18 anos o mas para poder registrarte">
+            </fieldset>
+
+            <fieldset>
+                <legend>Ingrese sus datos de usuario</legend>
+                <label for="usuario">Nombre de usuario</label>
+                <input id="usuario" type="text" placeholder="Juan Insano" required
+                    title="Ingresa un nombre de usuario valido">
+
+                <label for="contrasena">Contraseña</label>
+                <input id="contrasena" type="password" required title="Ingresa una contrasena valida">
+
+                <label for="confirmacion">Confirmar contraseña</label>
+                <input id="confirmacion" type="password" required title="Repite tu contrasena">
+
+                <button type="submit" class="form"> Registrarse</button>
+            </fieldset>
+        </form>
+    </main>
+    <script src="js/commons.js"></script>
+    <script src="js/registro.js"></script>
+</body>
+
+
+</html>

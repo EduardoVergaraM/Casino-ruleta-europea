@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Inicia sesion</title>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <a href="index.html" class="logo-container">
+                <img src="images/logo.png" alt="Casino-Logo" class="logo">
+                <h1 class="casino-title">Casino</h1>
+            </a>
+            <nav>
+                <a href="desarrolladores.html">Desarrolladores</a>
+                <a href="historia.html">Historia y Reglas</a>
+            </nav>
+        </div>
+        <div class="right">
+            <a href="registro.html" class="button">Registrarse</a>
+            <a href="login.html" class="button current-btn">Iniciar Sesión</a>
+        </div>
+    </header>
+
+    <main>
+        <form id="login-form">
+            <fieldset>
+                <legend>Ingresa tus datos</legend>
+
+                <div id="mensaje" class="mensaje-style"></div>
+
+                <label for="username">Ingresa tu nombre de usuario </label>
+                <input id="username" type="text" required title="Ingresa tu nombre de usuario">
+
+                <label for="password">Ingresa tu contraseña </label>
+                <input id="password" type="password" required title="Ingresa tu contrasena">
+
+                <button type="submit" class="form">Ingresar</button>
+                <p> ¿No tienes cuenta? Registrate <a href="registro.html">aqui </a> </p>
+
+            </fieldset>
+        </form>
+        
+        <script src="js/commons.js"></script>
+        <script src="js/login.js"></script> 
+
+    </main>
+</body>
+</html>

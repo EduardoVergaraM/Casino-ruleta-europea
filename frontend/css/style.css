@@ -1,0 +1,521 @@
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #202027;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2f2f38;
+  padding: 5px 30px;
+  margin: 0;
+}
+
+/* Header Left */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.casino-title{
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Lucida Handwriting", cursive;
+  color: gold;
+}
+
+/* Header Navegation */ 
+nav{
+  display: flex;
+  gap: 30px;             
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.current{
+  color: gold;
+}
+
+nav a:hover:not(.current){
+  color: gold;
+  transform: scale(1.1);
+}
+
+/* Header Right */
+.right {
+  display: flex;
+  gap: 20px;
+}
+
+.button{
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 15px;
+  border: 2px solid gold;
+  background-color: #2f2f38;
+  color: white;
+}
+
+.current-btn {
+  background-color: gold;
+  color: #2f2f38
+}
+
+.button:hover {
+  background-color: gold;
+  color: #2f2f38;
+}
+
+/* Main */
+main{
+  color: white
+}
+
+/* Inicio */
+.hero {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: gold;
+  text-transform: uppercase;
+}
+
+.hero h2 {
+  font-size: 20px;
+  color: #ccc;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.text-content {
+  max-width: 600px;
+  text-align: center;
+}
+
+.paragraph-content {
+  background-color: #2f2f38;
+  padding: 5px 25px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.text-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.register2-button {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #ffd700;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.register2-button:hover {
+  transform: scale(1.1);
+}
+
+.hero-img {
+  max-width: 800px;
+  border-radius: 30px;
+}
+
+/* Desarrolladores y Reglas */
+.info-section {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.info-section h2 {
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 28px;
+  color: gold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.info-content {
+  background-color: #2f2f38;
+  padding: 5px 25px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.info-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  text-align: justify;
+}
+
+p.academic-note {
+  font-style: italic;
+  color: #ccc;
+  background-color: #3a3a44;
+  padding: 10px;
+  border-left: 4px solid #ffd700;
+  text-align: left;
+}
+
+.info-content ul {
+  margin: 15px 0;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.info-content ul li {
+  margin-bottom: 10px;
+}
+
+.info-content ul ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.apuesta-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  background-color: #3a3a44;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.apuesta-tabla th, .apuesta-tabla td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #4a4a54;
+}
+
+.apuesta-tablath {
+  background-color: #ffd700;
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+.apuesta-tabla td {
+  color: #ccc;
+}
+
+.apuesta-tabla tr:last-child td {
+  border-bottom: none;
+}
+
+/* Form Style */
+form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 30px;
+  background: #2f2f38;
+  color: #fff;
+}
+
+fieldset {
+  border: 2px solid gold;   
+  border-radius: 8px;
+  margin-bottom: 20px;       
+  padding: 15px;
+}
+
+legend {
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: gold;              
+  padding: 0 8px;
+}
+
+label {
+  display: block;           
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+input[type="number"],
+input[type="month"],
+select {
+  display: block;
+  max-width: 550px;
+  width: 100%;  
+  box-sizing: border-box ;            
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid gold;
+  background: #2f2f38;          
+  color: white;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: gold;
+  outline: none;
+  box-shadow: 0 0 6px gold; 
+}
+
+button.form{
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: gold;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #2f2f38;
+  cursor: pointer;
+}
+
+/* Login */
+.mensaje-style {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Perfil */
+.datos{
+  background-color: #2f2f38;
+  border: 2px solid gold;
+  border-radius: 12px;
+  padding: 15px 25px;
+  width: 700px;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.datos h2{
+  font-family: "Lucida Handwriting", cursive;
+  color:gold;
+}
+
+.datos ul{
+  list-style-type: none;
+  padding-left: 0;
+  background-color: #2f2f38;
+}
+
+.datos ul li {
+  padding: 8px 0;
+  font-size: 16px;
+  border-bottom: 1px solid #4a4a54;
+}
+
+.logout-btn {
+display: block;
+margin: 20px auto;
+padding: 10px 20px;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 14px;
+border-radius: 15px;
+border: 2px solid gold;
+background-color: #2f2f38;
+color: white;
+cursor: pointer;
+}
+
+.logout-btn:hover {
+background-color: gold;
+color: #2f2f38;
+}
+
+/* Saldo del perfil */
+.perfil{
+  place-items: center;
+  justify-content: center;
+}
+
+.saldo-perfil {
+  background-color: #2f2f38;
+  border: 2px solid gold;
+  border-radius: 12px;
+  padding: 15px 25px;
+  width: 700px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.saldo-perfil h2{
+  font-family:"Lucida Handwriting", cursive ;
+  color:gold;
+
+}
+
+/* Panel de últimos giros */
+
+
+.giros h2{
+  font-family:"Lucida Handwriting", cursive ;
+  color: gold;
+  background-color: #2f2f38;
+  border: 2px solid gold;
+  border-radius: 12px;
+  padding: 15px 25px;
+  width: 700px;
+  font-size: 20px;
+}
+
+.giros table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #2f2f38;
+  border-radius: 12px;
+  overflow: hidden;
+  padding-left: 10px;
+}
+
+.giros thead th {
+  background-color: gold;
+  color: #1a1a1a;
+  padding: 12px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.giros tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #4a4a54;
+  color: white;
+}
+
+/* Transferencias */
+
+.saldo-transf{
+  background-color: #2f2f38;
+  border: 2px solid gold;
+  border-radius: 12px;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.saldo-transf h2{
+  font-family:"Lucida Handwriting", cursive ;
+  color:gold;
+}
+
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 50%);
+}
+
+.contenido-modal{
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  color: #000 !important;
+  border-radius: 10px;
+  width:80%;
+  max-width:400px;
+  text-align:center;
+  box-shadow: 0 4px 15px rgb(0 0 0 / 20%);
+}
+
+.cerrar {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.botones-modal {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+#boton-confirmar-retiro, #boton-cancelar-retiro,#boton-confirmar-deposito,#boton-cancelar-deposito, #boton-cerrar-realizado {
+  background: #28a745;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* #boton-cancelar-retiro { background: #dc3545; }
+#boton-confirmar-deposito:hover { background: #218838; }
+#boton-cancelar-deposito:hover { background: #c82333; }
+#boton-cancelar-retiro:hover { background: #c82333; }
+#boton-confirmar-retiro:hover { background: #218838; }
+#boton-cerrar-realizado { background: #007bff; }
+#boton-cerrar-realizado:hover { background: #0069d9; } */
+#boton-cancelar-retiro, #boton-cancelar-deposito { background: #dc3545; }
+#boton-cancelar-retiro:hover, #boton-cancelar-deposito:hover { background: #c82333; }
+#boton-confirmar-retiro:hover, #boton-confirmar-deposito:hover { background: #218838; }
+#boton-cerrar-realizado { background: #007bff; }
+#boton-cerrar-realizado:hover { background: #0069d9; }
+
+.fecha-exp{
+  display: flex;
+    gap: 10px;
+    align-items: center;
+}
