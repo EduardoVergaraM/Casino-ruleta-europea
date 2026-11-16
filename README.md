@@ -10,19 +10,20 @@ Aplicación web full-stack que simula un casino online con ruleta europea. Proye
 
 | Registro | Validación de mayoría de edad | Inicio de sesión |
 |---|---|---|
-| ![Registro](capturas/01-registro.jpeg) | ![Registro con error de edad](capturas/01b-registro-error.jpeg) | ![Inicio de sesión](capturas/02-login.jpeg) |
+| ![Registro](Capturas/01-registro.jpeg) | ![Registro con error de edad](Capturas/01b-registro-error.jpeg) | ![Inicio de sesión](Capturas/02-login.jpeg) |
 
 ### Perfil y transacciones
 
 | Perfil con movimientos | Depósito exitoso |
 |---|---|
-| ![Perfil](capturas/03-perfil.jpeg) | ![Depósito exitoso](capturas/04-transacciones.jpeg) |
+| ![Perfil](Capturas/03-perfil.jpeg) | ![Depósito exitoso](Capturas/04-transacciones.jpeg) |
 
 ### Ruleta
 
 | Tablero con apuestas | Resultado de un giro |
 |---|---|
-| ![Tablero de la ruleta](capturas/05-ruleta-tablero.jpeg) | ![Resultado de un giro](capturas/06-ruleta-resultado.jpeg) |
+| ![Tablero de la ruleta](Capturas/05-ruleta-tablero.jpeg) | ![Resultado de un giro](Capturas/06-ruleta-resultado.jpeg) |
+
 
 
 ## Funcionalidades
